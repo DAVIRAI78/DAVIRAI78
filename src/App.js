@@ -7,22 +7,21 @@ function App() {
 
   const catalogo = [
     {
-      nome: "Ricambi Auto",
+      nome: " Ricambi : www.euautopezzi.it", 
       corPrimaria: "#57C278",
-      corSecondaria: "#D9F7E9"
+      corSecondaria: "#D9F7E9",
     },
     {
-      nome: "Carrozzeria",
+      nome: "Carrozzeria : www.auto-doc.it",
       corPrimaria: "#82CFFA",
       corSecondaria: "#E8F8FF"
     },
     {
-      nome: "Accessori",
+      nome: "Accessori : www.mtelaborazioni.it",
       corPrimaria: "#A6D157",
       corSecondaria: "#F0F8E2"
     }
-
-  ]
+    ]
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
